@@ -797,9 +797,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
 ***/
 
 .services-container > div{
-	padding: 20px 10px;
-	border-bottom: 1px solid var(--dark-color);
-	color: var(--dark-color);
+	padding: 20px;
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+	display: flex;
+	align-items: center;
+}
+
+.services-container > div:hover{
+	background: #fafafa;
 }
 
 .pricing-section{
