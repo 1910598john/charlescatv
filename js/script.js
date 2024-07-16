@@ -1,15 +1,22 @@
+function startDate() {
+	setTimeout(() => {
+		let DATE2 = new Date();
+		console.log(DATE2.toISOString());
+		startDate();
+	}, 1000);
+}
+
 (function($) {
 	
 	"use strict";
 	
-	
+	startDate();
 	//Hide Loading Box (Preloader)
 	function handlePreloader() {
 		if($('.preloader').length){
 			$('.preloader').delay(200).fadeOut(500);
 		}
 	}
-	
 
 	if ($(window).width() < 650) {
 		$(".masbate-map").hide();
@@ -20,6 +27,10 @@
 		window.open("https://forms.gle/3J1UWFfozYwpaMWX6", "_blank");
 	})
 	
+	let DATE = new Date();
+	
+
+	$(".copyright").html("&copy; " + DATE.getFullYear() + " CCSI");
 	
 	//Update Header Style and Scroll to Top
 	function headerStyle() {
@@ -36,12 +47,10 @@
 				siteHeader.removeClass('fixed-header');
 				scrollLink.fadeOut(300);
 			}
-			
 		}
 	}
 	
 	headerStyle();
-	
 	
 	//Submenu Dropdown Toggle
 	if($('.main-header li.dropdown ul').length){
