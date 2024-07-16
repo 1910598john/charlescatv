@@ -28,7 +28,6 @@ function startDate() {
 	})
 	
 	let DATE = new Date();
-	
 
 	$(".copyright").html("&copy; " + DATE.getFullYear() + " CCSI");
 	
