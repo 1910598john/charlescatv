@@ -13,7 +13,9 @@
 	}
 
 	if ($(window).width() < 650) {
-		$(".masbate-map").hide();
+
+		
+		$(".internet-section").hide();
 	}
 
 	$(".apply").on("click", function(event){
