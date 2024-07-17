@@ -1,10 +1,4 @@
-function startDate() {
-	setTimeout(() => {
-		let DATE2 = new Date();
-		console.log(DATE2.toISOString());
-		startDate();
-	}, 1000);
-}
+
 
 (function($) {
 	
