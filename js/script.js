@@ -13,8 +13,6 @@
 	}
 
 	if ($(window).width() < 650) {
-
-		
 		$(".internet-section").hide();
 	}
 
@@ -333,6 +331,7 @@
 	
 	
 	//Main Slider Carousel
+	
 	if ($('.main-slider-carousel').length) {
 		$('.main-slider-carousel').owlCarousel({
 			animateOut: 'fadeOut',
@@ -362,6 +361,13 @@
 				}
 			}
 		});
+	}
+
+	if ($(window).width() < 600) {
+		$(".price-block").click(function(event){
+			event.stopImmediatePropagation();
+			window.open("https://forms.gle/3J1UWFfozYwpaMWX6", "_blank");
+		})
 	}
 	
 	
@@ -452,10 +458,10 @@
 			navText: [ '<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right"></span>' ],
 			responsive:{
 				0:{
-					items:1
+					items:2
 				},
 				480:{
-					items:1
+					items:2
 				},
 				600:{
 					items:2
