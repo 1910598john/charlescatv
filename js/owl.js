@@ -282,6 +282,7 @@
 	}, {
 		filter: [ 'width', 'items', 'settings' ],
 		run: function(cache) {
+
 			var margin = this.settings.margin || '',
 				grid = !this.settings.autoWidth,
 				rtl = this.settings.rtl,

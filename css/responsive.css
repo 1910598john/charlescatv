@@ -995,15 +995,15 @@
 		margin: 0;
 	}
 
-	.price-block .lower-box{
-		display: none;
-	}
+	
 
-	.plan-sect{
-		display: none;
-	}
+	
 
 	a.io-1{
+		display: none;
+	}
+
+	.sticky-header{
 		display: none;
 	}
 	
