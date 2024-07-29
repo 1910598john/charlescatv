@@ -37,7 +37,21 @@
 
 
 
+    $(".sidebar-gallery .gallery-thumb").click(function() {
+        let img = $(this).children("img").clone();
+        document.body.insertAdjacentHTML("afterbegin", `
+        <div class="preview-image" style="display:grid;place-items:center;">
+        </div>`);
+        $(img).appendTo(".preview-image");
 
+        $(".preview-image").click(function(){
+            $(this).remove();
+        })
+
+        $(".preview-image img").click(function(event){
+           event.stopImmediatePropagation();
+        })
+    })
 
 
 

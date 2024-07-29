@@ -445,9 +445,14 @@ h6 {
     flex-direction: column;
     padding: 0 !important;
     text-align: center;
+    border: none !important;
+  }
+  #services .wcu > div:nth-child(3) {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
   }
   #services .wcu > div .img12345 {
     margin-bottom: 10px;
+    width: 60%;
   }
 
   #services .map{
@@ -4966,6 +4971,16 @@ a.text-theme:hover,
           transform: translate(-50%, 20px);
 }
 
+.preview-image{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width:100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.8);
+  z-index: 12312312312123213;
+}
+
 .sidebar-gallery .gallery-btn:hover {
   color: var(--theme-color);
 }
@@ -4973,6 +4988,7 @@ a.text-theme:hover,
 .sidebar-gallery .gallery-thumb {
   overflow: hidden;
   position: relative;
+  cursor: pointer;
 }
 
 .sidebar-gallery .gallery-thumb:before {
@@ -7674,7 +7690,7 @@ heding animation  end
 
 @keyframes preload2{
   from {
-    height:50vh;
+    height:100vh;
   } to {
     height: 0vh;
   }
@@ -18668,6 +18684,7 @@ span.select2-selection.select2-selection--single:focus {
   .destination-area .container > div:nth-child(2) > div{
     flex-direction: column;
   }
+  
 }
 
 @media (min-width: 508px) {
@@ -19585,14 +19602,20 @@ span.select2-selection.select2-selection--single:focus {
   .tour-slider > div > div {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    transform: scale(.9)
+
   }
 
+
+
+ 
   .io{
     display: none;
   }
 
   .tour-slider > div > div > div{
-    padding: 2px;
+    transform: scale(.9);
+    margin: -5px;
   }
 }
 
