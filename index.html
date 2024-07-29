@@ -1,719 +1,569 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html class="no-js" lang="zxx">
+
 <head>
-<meta charset="utf-8">
-<title>Charles CATV Systems Inc.</title>
-<!-- Stylesheets -->
-<link href="css/bootstrap.css" rel="stylesheet">
-<link href="css/style.css" rel="stylesheet">
-<link href="css/responsive.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Charles CATV Systems Inc.</title>
+    <meta name="author" content="Tourm">
+    <meta name="description" content="Tourm - Travel & Tour Booking Agency HTML Template ">
+    <meta name="keywords" content="Tourm - Travel & Tour Booking Agency HTML Template ">
+    <meta name="robots" content="INDEX,FOLLOW">
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<link rel="shortcut icon" href="images/ccsi-icon.png" type="image/x-icon">
-<link rel="icon" href="images/ccsi-icon.png" type="image/x-icon">
 
-<!-- Responsive -->
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/img/ccsi-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/ccsi-icon.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/img/ccsi-icon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/ccsi-icon.png">
+    <link rel="manifest" href="assets/img/favicons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="assets/img/favicons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!--==============================
+	  Google Fonts
+	============================== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Manrope:wght@200..800&family=Montez&display=swap" rel="stylesheet">
+
+    <!--==============================
+	    All CSS File
+	============================== -->
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Fontawesome Icon -->
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
+
+    <!-- Swiper css -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <!-- Theme Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
 
-<body class="hidden-bar-wrapper">
+<body>
 
-<div class="page-wrapper">
- 	
-    <!-- Preloader -->
-    <div class="preloader">
-		<span></span>
-	</div>
- 	
- 	<!-- Main Header -->
-    <header class="main-header">
-    	
-		<!-- Header Top -->
-		<div class="header-top">
-			<div class="auto-container clearfix">
-				
-				<div class="pull-left">
-					<ul class="info">
-						<li><a><span class="icon flaticon-phone"></span>Call: 333-6901</a></li>
-						<li><a><span class="icon flaticon-email-2"></span>info@charlescatv.com</a></li>
-					</ul>
-				</div>
-				
-				<div class="pull-right clearfix">
-					<!-- Social Box -->
-					
-					<ul class="social-box">
-						<li>Follow us: &nbsp;<a onclick="window.open('https://www.facebook.com/charlescatv', '_blank')" class="fa fa-facebook-f"></a></li>
-					</ul>
-				</div>
-				
-			</div>
-		</div>
-		
-        <!-- Header Lower -->
-        <div class="header-lower">
-            
-			<div class="auto-container clearfix">
-				<div class="inner-container clearfix">
-					
-					<div class="pull-left logo-box">
-						<div class="logo"><a onclick="location.reload();"><img src="images/logo.webp" alt="" title=""></a></div>
-					</div>
-					<div class="nav-outer clearfix">
-						
-						<!-- Mobile Navigation Toggler -->
-						<div class="mobile-nav-toggler"><span class="icon flaticon-menu"></span></div>
-						<!-- Main Menu -->
-						<nav class="main-menu show navbar-expand-md">
-							<div class="navbar-header">
-								<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
-								</button>
-							</div>
-							<div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
-								<ul class="navigation clearfix">
-									<li class="current"><a class="main-menu-li" onclick="document.getElementById('slider').scrollIntoView();">Home</a></li>
-									<li><a class="main-menu-li" onclick="document.getElementById('about').scrollIntoView();">About</a></li>
-									<li><a class="main-menu-li" onclick="document.getElementById('plans').scrollIntoView();">Packages</a></li>
-									<li><a class="main-menu-li" onclick="document.getElementById('services').scrollIntoView();">Services</a></li>
-									<li><a class="main-menu-li" onclick="document.getElementById('payment-mode').scrollIntoView();">Payment Mode</a></li>
-									<li><a class="main-menu-li" onclick="document.getElementById('contact').scrollIntoView();">Contact Us</a></li>
-								</ul>
-							</div>
-							
-						</nav>
-						<!-- Main Menu End-->
-						
-						<!-- Outer Box -->
-						<div class="outer-box clearfix">
-							
-							
-							
-						</div>
-						<!-- End Outer Box -->
-						
-					</div>
-				</div>
-				
-			</div>
-        </div>
-        <!-- End Header Lower -->
-        
-		<!-- Sticky Header  -->
-        <div class="sticky-header">
-            <div class="auto-container clearfix">
-                <!-- Logo -->
-                <div class="logo pull-left">
-                    <a onclick="location.reload();" title=""><img src="images/logo.webp" alt="" title=""></a>
-                </div>
-				
-                <!--Right Col-->
-                <div class="pull-right">
-                    <!-- Main Menu -->
-                    <nav class="main-menu">
-                        <!--Keep This Empty / Menu will come through Javascript-->
-                    </nav><!-- Main Menu End-->
-					
-					<!-- Outer Box -->
-					
-						
-					</div>
-					<!-- End Outer Box -->
-					
+    <!--[if lte IE 9]>
+    	<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  	<![endif]-->
+
+
+    <!--********************************
+   		Code Start From Here 
+	******************************** -->
+
+    <div class="magic-cursor relative z-10">
+        <div class="cursor"></div>
+        <div class="cursor-follower"></div>
+    </div>
+    
+    <div class="preload" style="width:100vw;height:calc(50vh + 2px);background:#fff;top:-2px;left:0;position: fixed; z-index:23213123123123213213;;"></div>
+    <div class="preload" style="width:100vw;height:calc(50vh + 2px);background:#fff;bottom:-2px;left:0;position: fixed; z-index:23213123123123213213;"></div>
+    <div class="preload-logo" style="position: fixed;top:50%;left:50%;transform: translate(-50%, -50%);z-index:2313213132131313123123123213213123123213123123213;">
+        <img src="/assets/img/ccsi-icon.png"/>
+    </div>
+
+    <div class="sidemenu-wrapper sidemenu-info ">
+        <div class="sidemenu-content">
+            <button class="closeButton sideMenuCls"><i class="far fa-times"></i></button>
+            <div class="widget  ">
+                <div class="th-widget-about">
+                    <div class="about-logo">
+                        <a href="home-travel.html"><img src="assets/img/ccsi-icon.png" alt="CCSI"></a>
+                    </div>
                 </div>
             </div>
-        </div><!-- End Sticky Menu -->
-    
-		<!-- Mobile Menu  -->
-        <div class="mobile-menu">
-            <div class="menu-backdrop"></div>
-            <div class="close-btn"><span class="icon flaticon-multiply"></span></div>
-            
-            <nav class="menu-box">
-                <div class="nav-logo"><a onclick="location.reload();"><img src="images/logo.webp" alt="" title=""></a></div>
-                <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
-            </nav>
-        </div><!-- End Mobile Menu -->
-	
+        </div>
+    </div>
+    <div class="popup-search-box">
+        <button class="searchClose"><i class="fal fa-times"></i></button>
+        <form action="#">
+            <input type="text" placeholder="What are you looking for?">
+            <button type="submit"><i class="fal fa-search"></i></button>
+        </form>
+    </div><!--==============================
+    Mobile Menu
+  ============================== -->
+    <div class="th-menu-wrapper onepage-nav">
+        <div class="th-menu-area text-center">
+            <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
+            <div class="mobile-logo">
+                <a href="home-travel.html"><img src="assets/img/ccsi-icon.png" alt="Tourm"></a>
+            </div>
+            <div class="th-mobile-menu">
+                <ul id="menu" class="pl-2">
+                    <li>
+                        <a class="active" href="home">Home</a>
+                    </li>
+                    <li >
+                        <a href="#packages">Packages</a>
+                    </li>
+                    <li >
+                        <a href="#services">Services</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div><!--==============================
+	Header Area
+==============================-->
+    <header class="th-header header-layout1">
+        <div class="header-top d-none d-md-block">
+            <div class="container th-container">
+                <div class="row justify-content-center justify-content-xl-between align-items-center">
+                    <div class="col-auto d-none d-md-block">
+                        <div class="header-links">
+                            <ul>
+                                <li class="d-none d-xl-inline-block"><i class="fa-sharp fa-regular  fa-location-dot"></i>
+                                    <span>SDB Bldg, Quezon St. 5400 Masbate, Philippines</span>
+                                </li>
+                                <li class="d-none d-xl-inline-block"><i class="fa-regular fa-clock"></i>
+                                    <span>Everyday Open: 8:00 AM - 5:00 PM</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sticky-wrapper">
+            <!-- Main Menu Area -->
+            <div class="menu-area">
+                <div class="container th-container">
+                    <div class="row align-items-center justify-content-between">
+                        <div class="col-auto">
+                            <div class="header-logo">
+                                <a href="" style="margin-right: 50px;"><img src="assets/img/ccsi-icon.png" alt="Tourm"></a>
+                            </div>
+                        </div>
+                        <div class="col-auto me-xl-auto">
+                            <nav class="main-menu d-none d-xl-inline-block">
+                                <ul id="menu">
+                                    <li>
+                                        <a href="#home" class="active">Home</a>
+                                    </li>
+                                    <li >
+                                        <a href="#packages">Packages</a>
+                                    </li>
+                                    <li >
+                                        <a href="#services">Services</a>
+                                    </li>
+                                    <li>
+                                        <a href="#contact">Contact us</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <button type="button" class="th-menu-toggle d-block d-xl-none"><i class="far fa-bars"></i></button>
+                        </div>
+                        <div class="col-auto d-none d-xl-block">
+                            <div class="header-button">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="logo-bg" data-mask-src="assets/img/logo_bg_mask.png"></div>
+            </div>
+        </div>
     </header>
-    <!-- End Main Header -->
-	
-	
-	
-	<!-- Main Section -->
-    <section class="main-slider" id="slider">
-		<div class="main-slider-carousel owl-carousel owl-theme">
-            <div class="slide" style="background-image: url(images/main-slider/slider_1.png); background-position:center;">
-				<div class="pattern-layer" style="background-image: url(images/main-slider/pattern-layer.png)"></div>
-				<!-- <div class="color-layer-one"></div>
-				<div class="color-layer-two"></div>
-				<div class="color-layer-three"></div> -->
-				<div class="auto-container">
-					
-					<!-- Content Boxed -->
-					<div class="content-boxed">
-						<div class="inner-box">
-							<div class="title">CHARLES CATV SYSTEMS INC</div>
-							<h1>Stay connected at speed of light while playing and streaming</h1>
-							<div class="btns-box">
-								<a href="#plans" class="theme-btn btn-style-two"><span class="txt">Get started <i class="lnr lnr-arrow-right"></i></span></a>
-								<a href="#contact" class="theme-btn btn-style-three"><span class="txt">Contact Us <i class="lnr lnr-arrow-right"></i></span></a>
-							</div>
-						</div>
-						
-					</div>
-					
-				</div>
-			</div>
-			
-			<div class="slide slid-2" style="background-image: url(images/main-slider/slider_2.png); background-position: right;">
-				<div class="pattern-layer" style="background-image: url(images/main-slider/pattern-layer.png)"></div>
-				<!-- <div class="color-layer-one"></div>
-				<div class="color-layer-two"></div>
-				<div class="color-layer-three"></div> -->
-				<div class="auto-container">
-					
-					<!-- Content Boxed -->
-					<div class="content-boxed">
-						<div class="inner-box">
-							<div class="title">CHARLES CATV SYSTEMS INC</div>
-							<h1>Faster internet,<br> faster learning</h1>
-							<br><br><br>
-							<div class="btns-box">
-								<a href="#plans" class="theme-btn btn-style-two"><span class="txt">Get started <i class="lnr lnr-arrow-right"></i></span></a>
-								<a href="#contact" class="theme-btn btn-style-three"><span class="txt">Contact Us <i class="lnr lnr-arrow-right"></i></span></a>
-							</div>
-						</div>
-					</div>
-			
-				</div>
-			</div>
-			
-		</div>
-		
-	</section>
-	<!-- End Main Section -->
+    <!--==============================
+    Hero Area
+    ==============================-->
+    <div id="home" class="th-hero-wrapper hero-1" id="hero">
+        <div class="swiper th-slider hero-slider-1" id="heroSlide1" data-slider-options='{"effect":"fade","menu": ["", "", ""],"heroSlide1": {"swiper-container": {"pagination": {"el": ".swiper-pagination", "clickable": true }}}}'>
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="hero-inner">
+                        <div class="th-hero-bg" data-bg-src="assets/img/slider_1.png">
+                        </div>
+                        <div class="container">
+                            <div class="hero-style1">
+                                <h1 class="hero-title" data-ani="slideinup" data-ani-delay="0.4s">
+                                    Stay connected at speed of light </h1>
+                                <div class="btn-group" data-ani="slideinup" data-ani-delay="0.6s">
+                                    <a href="tour.html" class="th-btn th-icon">Get started</a>
+                                    <a href="service.html" class="th-btn style2 th-icon">Contact us</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="hero-inner">
+                        <div class="th-hero-bg" data-bg-src="assets/img/slider_2.png" style="background-position: right;">
+                        </div>
+                        <div class="container">
+                            <div class="hero-style1">
+                                <h1 class="hero-title" data-ani="slideinup" data-ani-delay="0.4s">
+                                    Faster internet, faster learning 
+                                </h1>
+                                <div class="btn-group" data-ani="slideinup" data-ani-delay="0.6s">
+                                    <a href="tour.html" class="th-btn th-icon">Get started</a>
+                                    <a href="service.html" class="th-btn style2 th-icon">Contact us</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="th-swiper-custom" style="display: none;">
+                <button data-slider-prev="#heroSlide1" class="slider-arrow slider-prev"><img src="assets/img/icon/right-arrow.svg" alt=""></button>
+                <div class="slider-pagination"></div>
+                <button data-slider-next="#heroSlide1" class="slider-arrow slider-next"><img src="assets/img/icon/left-arrow.svg" alt=""></button>
+            </div>
+        </div>
+    </div>
 
-	
-	<!-- Services Section -->
-	<section class="services-section" id="about" style="background-image: url(images/background/pattern-2.png)">
-		<div class="auto-container">
-			
-			<!-- Upper Section -->
-			<div class="upper-section">
-				<div class="row clearfix">
-					
-					<!-- Service block -->
-					<div class="service-block col-lg-4 col-md-6 col-sm-12">
-						<div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-							<span class="border-one"></span>
-							<span class="border-two"></span>
-							<h4><a>Budget Friendly</a></h4>
-							<div class="text">We provide fiber speed internet <br>service and cable TV channels at <br>budget-friendly rates.</div>
-							<div class="icon"><img src="images/icons/service-1.png" alt=""/></div>
-						</div>
-					</div>
+    <section id="packages" class="position-relative bg-top-center overflow-hidden space" id="service-sec" style="border-top: 1px solid rgba(0,0,0,0.1);overflow: visible !important;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3">
+                    <div class="title-area text-center">
+                        <p class="sec-text" style="font-size:15px;">Choose your plan</p>
+                        <h4 class="sec-title">Home Plans</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-area tour-slider">
+                <div class="">
+                    <div class="">
+                        
+                        <div class="">
+                            <div class="tour-box th-ani gsap-cursor">
+                                <div class="tour-box_img global-img" style="background:var(--theme-color);padding-top:20px;padding-bottom:10px;display:grid;place-items:center;">
+                                    <h3 class="box-title text-white"><a href="tour-details.html">Home Plan </a></h3>
+                                </div>
+                                <div class="tour-content">
+                                    <div class="">
+                                        <span style="font-size:13px;">Speed</span> <br> <span style="color:var(--theme-color)">Up to 200MBps</span>
+                                    </div>
+                                    <h4 class="tour-box_price"><span class="currency">₱1300</span>/Monthly</h4>
+                                    <div class="tour-action">
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-					<!-- Service block -->
-					<div class="service-block active col-lg-4 col-md-6 col-sm-12">
-						<div class="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-							<span class="border-one"></span>
-							<span class="border-two"></span>
-							<h4><a>Fast Internet</a></h4>
-							<div class="text">Blazing-fast internet connection in a limitless experience with our Advanced Fiber Technology.</div>
-							<div class="icon"><img src="images/icons/service-2.png" alt="" /></div>
-						</div>
-					</div>
+                        <div class="">
+                            <div class="tour-box th-ani gsap-cursor">
+                                <div class="tour-box_img global-img" style="background:var(--theme-color);padding-top:20px;padding-bottom:10px;display:grid;place-items:center;">
+                                    <h3 class="box-title text-white"><a href="tour-details.html">Home Plan </a></h3>
+                                </div>
+                                <div class="tour-content">
+                                    <div class="">
+                                        <span style="font-size:13px;">Speed</span> <br> <span style="color:var(--theme-color)">Up to 400MBps</span>
+                                    </div>
+                                    <h4 class="tour-box_price"><span class="currency">₱1600</span>/Monthly</h4>
+                                    <div class="tour-action">
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="">
+                            <div class="tour-box th-ani gsap-cursor">
+                                <div class="tour-box_img global-img" style="background:var(--theme-color);padding-top:20px;padding-bottom:10px;display:grid;place-items:center;">
+                                    <h3 class="box-title text-white"><a href="tour-details.html">Home Plan </a></h3>
+                                </div>
+                                <div class="tour-content">
+                                    <div class="">
+                                        <span style="font-size:13px;">Speed</span> <br> <span style="color:var(--theme-color)">Up to 600MBps</span>
+                                    </div>
+                                    <h4 class="tour-box_price"><span class="currency">₱2000</span>/Monthly</h4>
+                                    <div class="tour-action">
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="">
+                            <div class="tour-box th-ani gsap-cursor" style="overflow:visible">
+                                <div class="ribbon" style="position: absolute;top:-20px;right:-20px;z-index:10;font-size:10px;">
+                                    REC
+                                </div>
+                                <div class="tour-box_img global-img" style="background:var(--theme-color);padding-top:20px;padding-bottom:10px;display:grid;place-items:center;">
+                                    <h3 class="box-title text-white"><a href="tour-details.html">Home Plan </a></h3>
+                                </div>
+                                <div class="tour-content">
+                                   
+                                    <div class="">
+                                        <span style="font-size:13px;">Speed</span> <br> <span style="color:var(--theme-color)">Up to 1GBps</span>
+                                    </div>
+                                    <h4 class="tour-box_price"><span class="currency">₱2800</span>/Monthly</h4>
+                                    <div class="tour-action">
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
 
-					<!-- Service block -->
-					<div class="service-block  col-lg-4 col-md-6 col-sm-12">
-						<div class="inner-box wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
-							<span class="border-one"></span>
-							<span class="border-two"></span>
-							<h4><a>Reliable</a></h4>
-							<div class="text">Experience our cutting edge 100Gbps backbone, delivering top-tier performance for all your connectivity needs.</div>
-							<div class="icon"><img src="images/icons/service-3.png" alt="" /></div>
-						</div>
-					</div>
-					
-				</div>
-			</div>
-			<!-- End Upper Section -->
-			
-			<!-- Lower Section -->
-			<div class="lower-section">
-				<div class="row clearfix">
-					<!-- Image Column -->
-					<div class="image-column col-lg-6 col-md-12 col-sm-12">
-						<div class="inner-column titlt" data-tilt data-tilt-max="3">
-							<div class="color-layer"></div>
-							<div class="image">
-								<img src="images/resource/service-1.webp" alt="" />
-							</div>
-						</div>
-					</div>
-					
-					<!-- Content Column -->
-					<div class="content-column col-lg-6 col-md-12 col-sm-12">
-						<div class="inner-column">
-							<div class="sec-title">
-								<div class="title">WHO WE ARE</div>
-								<h3>Charles CATV System Inc.</h3>
-							</div>
-							<div class="text">CCSI is a leading fiber internet and cable TV provider in Masbate City, Philippines. Established in 1993, we have been providing reliable and affordable internet services to our customers for over 30 years. We offer a wide range of plans to suit your needs, from home plans to business plans. We also have a variety of cable TV channels to choose from. Our team of experienced and dedicated staff is always available to help you with your internet and cable TV needs.</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- End Lower Section -->
-		</div>
-	</section>
-	<!-- End Services Section -->
-	
-	<!-- Pricing Section -->
-	<section class="pricing-section" id="plans" style="background-image: url(images/background/pattern-3.png)">
-		<div class="auto-container">
-			<!-- Sec Title -->
-			<div class="sec-title light centered">
-				<div class="title">CHOOSE YOUR PLAN</div>
-				<h2>Fiber Home Plans</h2>
-			</div>
-			<!-- End Sec Title -->
-				<div class="four-item-carousel owl-carousel owl-theme">
-					<div class="price-block">
-						<div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-							
-							<div class="upper-box" style="background-image: url(images/background/pattern-4.png)">
-								<ul class="icon-list">
-									<li><span class="icon"><img src="images/icons/service-1.svg" alt="" /></span></li>
-								</ul>
-								<h4 style="line-height: 20px;margin-bottom:-5px;">1000 <a class="plan-sect">Home</a> Plan <br><span style="font-size:13px;color:var(--dark-color);">(Internet only)<br></span><span>Monthly</span> <span> up to</span> <span>100MBps</span></h4>
-							</div>
-							<div class="lower-box text-center">
-								
-								<a class="theme-btn btn-style-four apply text-white"><span class="txt">Apply Now</span></a>
-								
-							</div>
-						</div>
-					</div>
-					<!-- Price Block -->
-					<div class="price-block">
-						<div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms" style="position: relative;">
-							<div class="upper-box" style="background-image: url(images/background/pattern-4.png)">
-								<ul class="icon-list">
-									<li><span class="icon"><img src="images/icons/service-1.svg" alt="" /></span></li>
-								</ul>
-								<h4 style="line-height: 20px;">1300 <a class="plan-sect">Home</a> Plan <br><br><span>Monthly</span> <span> up to</span> <span>200MBps</span></h4>
-							</div>
-							<div class="lower-box text-center">
-								<a class="theme-btn btn-style-four apply text-white"><span class="txt">Apply Now</span></a>
-							</div>
-						</div>
-					</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3">
+                    <div class="title-area text-center">
+                        <br>
+                        <h4 class="sec-title">Business Plans</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-area tour-slider">
+                <div class="">
+                    <div class="">
+                        
+                        <div class="">
+                            <div class="tour-box th-ani gsap-cursor">
+                                <div class="tour-box_img global-img" style="background:var(--theme-color);padding-top:20px;padding-bottom:10px;display:grid;place-items:center;">
+                                    <h3 class="box-title text-white"><a href="tour-details.html">Business Plan </a></h3>
+                                </div>
+                                <div class="tour-content">
+                                    <div class="">
+                                        <span style="font-size:13px;">Speed</span> <br> <span style="color:var(--theme-color)">Up to 200MBps</span>
+                                    </div>
+                                    <h4 class="tour-box_price"><span class="currency">₱1600</span>/Monthly</h4>
+                                    <div class="tour-action">
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="">
+                            <div class="tour-box th-ani gsap-cursor">
+                                <div class="tour-box_img global-img" style="background:var(--theme-color);padding-top:20px;padding-bottom:10px;display:grid;place-items:center;">
+                                    <h3 class="box-title text-white"><a href="tour-details.html">Business Plan </a></h3>
+                                </div>
+                                <div class="tour-content">
+                                    <div class="">
+                                        <span style="font-size:13px;">Speed</span> <br> <span style="color:var(--theme-color)">Up to 400MBps</span>
+                                    </div>
+                                    <h4 class="tour-box_price"><span class="currency">₱2600</span>/Monthly</h4>
+                                    <div class="tour-action">
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-					<!-- Price Block -->
-					<div class="price-block">
-						<div class="inner-box wow fadeInLeft" data-wow-delay="150ms" data-wow-duration="1500ms" style="position: relative;">
-							
-							<div class="upper-box" style="background-image: url(images/background/pattern-4.png)">
-								<ul class="icon-list">
-									<li><span class="icon"><img src="images/icons/service-1.svg" alt="" /></span></li>
-								</ul>
-								<h4 style="line-height: 20px;">1600 <a class="plan-sect">Home</a> Plan <br><br><span>Monthly</span> <span> up to</span> <span>400MBps</span></h4>
-							</div>
-							<div class="lower-box text-center">
-								<a  class="theme-btn btn-style-four apply text-white"><span class="txt">Apply Now</span></a>
-							</div>
-						</div>
-					</div>
+                        <div class="">
+                            <div class="tour-box th-ani gsap-cursor">
+                                <div class="tour-box_img global-img" style="background:var(--theme-color);padding-top:20px;padding-bottom:10px;display:grid;place-items:center;">
+                                    <h3 class="box-title text-white"><a href="tour-details.html">Business Plan </a></h3>
+                                </div>
+                                <div class="tour-content">
+                                    <div class="">
+                                        <span style="font-size:13px;">Speed</span> <br> <span style="color:var(--theme-color)">Up to 600MBps</span>
+                                    </div>
+                                    <h4 class="tour-box_price"><span class="currency">₱4600</span>/Monthly</h4>
+                                    <div class="tour-action">
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-					<!-- Price Block -->
-					<div class="price-block">
-						<div class="inner-box wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
-							<div class="upper-box" style="background-image: url(images/background/pattern-4.png)">
-								<ul class="icon-list">
-									<li><span class="icon"><img src="images/icons/service-1.svg" alt="" /></span></li>
-								</ul>
-								<h4 style="line-height: 20px;">2000 <a class="plan-sect">Home</a> Plan <br><br><span>Monthly</span> <span> up to</span> <span>600MBps</span></h4>
-							</div>
-							<div class="lower-box text-center">
-								
-								<a class="theme-btn btn-style-four apply text-white"><span class="txt">Apply Now</span></a>
-								
-							</div>
-						</div>
-					</div>
-
-					<!-- Price Block -->
-					<div class="price-block">
-						<div class="inner-box wow fadeInLeft" data-wow-delay="450ms" data-wow-duration="1500ms">
-							<div class="ribbon-wrapper"><div class="glow">&nbsp;</div>
-								<div class="ribbon-front">
-									Recommended
-								</div>
-							</div>
-
-							<div class="upper-box" style="background-image: url(images/background/pattern-4.png)">
-								<ul class="icon-list">
-									<li><span class="icon"><img src="images/icons/service-1.svg" alt="" /></span></li>
-								</ul>
-								<h4 style="line-height: 20px;">2800 <a class="plan-sect">Home</a> Plan <br><br><span>Monthly</span> <span> up to</span> <span>1GBps</span></h4>
-							</div>
-							<div class="lower-box text-center">
-								
-								<a class="theme-btn btn-style-four apply text-white"><span class="txt">Apply Now</span></a>
-								
-							</div>
-						</div>
-					</div>
-
-					
-					
-					
-				</div>
-
-				<div class="sec-title light centered">
-					<h2>Business Plans</h2>
-				</div>
-
-				<div class="four-item-carousel owl-carousel owl-theme">
-					<div class="price-block">
-						<div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-							
-							<div class="upper-box" style="background-image: url(images/background/pattern-4.png)">
-								<ul class="icon-list">
-									<li><span class="icon"><img src="images/icons/service-1.svg" alt="" /></span></li>
-								</ul>
-								<h4 style="line-height: 20px;margin-bottom:-5px;">1600 <a class="plan-sect">Business</a> Plan <br><span style="font-size:13px;color:var(--dark-color);"><a class="io-1">Internet only (1 AM - 6 PM) </a><!--<a class="io-2">(Internet only)</a>--></span><span>Monthly</span> <span> up to</span> <span>400MBps</span></h4>
-							</div>
-							<div class="lower-box text-center">
-								
-								<a class="theme-btn btn-style-four apply text-white"><span class="txt">Apply Now</span></a>
-								
-							</div>
-						</div>
-					</div>
-			
-					<!-- Price Block -->
-					<div class="price-block">
-						<div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-							<div class="upper-box" style="background-image: url(images/background/pattern-4.png)">
-								<ul class="icon-list">
-									<li><span class="icon"><img src="images/icons/service-1.svg" alt="" /></span></li>
-								</ul>
-								<h4 style="line-height: 20px;">1600 <a class="plan-sect">Business</a> Plan <br><br><span>Monthly</span> <span> up to</span> <span>200MBps</span></h4>
-							</div>
-							<div class="lower-box text-center">
-								
-								<a class="theme-btn btn-style-four apply text-white"><span class="txt">Apply Now</span></a>
-								
-							</div>
-						</div>
-					</div>
-
-					<!-- Price Block -->
-					<div class="price-block">
-						<div class="inner-box wow fadeInLeft" data-wow-delay="150ms" data-wow-duration="1500ms" style="position: relative;">
-							
-							<div class="upper-box" style="background-image: url(images/background/pattern-4.png)">
-								<ul class="icon-list">
-									<li><span class="icon"><img src="images/icons/service-1.svg" alt="" /></span></li>
-								</ul>
-								<h4 style="line-height: 20px;">2600 <a class="plan-sect">Business</a> Plan <br><br><span>Monthly</span> <span> up to</span> <span>400MBps</span></h4>
-							</div>
-							<div class="lower-box text-center">
-								
-								<a  class="theme-btn btn-style-four apply text-white"><span class="txt">Apply Now</span></a>
-								
-							</div>
-						</div>
-					</div>
-
-					<!-- Price Block -->
-					<div class="price-block">
-						<div class="inner-box wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
-							<div class="upper-box" style="background-image: url(images/background/pattern-4.png)">
-								<ul class="icon-list">
-									<li><span class="icon"><img src="images/icons/service-1.svg" alt="" /></span></li>
-								</ul>
-								<h4 style="line-height: 20px;">4600 <a class="plan-sect">Business</a> Plan <br><br><span>Monthly</span> <span> up to</span> <span>600MBps</span></h4>
-							</div>
-							<div class="lower-box text-center">
-								
-								<a  class="theme-btn btn-style-four apply text-white"><span class="txt">Apply Now</span></a>
-								
-							</div>
-						</div>
-					</div>
-
-					<!-- Price Block -->
-					<div class="price-block">
-						<div class="inner-box wow fadeInLeft" data-wow-delay="450ms" data-wow-duration="1500ms">
-							<div class="ribbon-wrapper"><div class="glow">&nbsp;</div>
-								<div class="ribbon-front">
-									Recommended
-								</div>
-							</div>
-							<div class="upper-box" style="background-image: url(images/background/pattern-4.png)">
-								<ul class="icon-list">
-									<li><span class="icon"><img src="images/icons/service-1.svg" alt="" /></span></li>
-								</ul>
-								<h4 style="line-height: 20px;">6600 <a class="plan-sect">Business</a> Plan <br><br><span>Monthly</span> <span> up to</span> <span>1GBps</span></h4>
-							</div>
-							<div class="lower-box text-center">
-								
-								<a class="theme-btn btn-style-four apply text-white"><span class="txt">Apply Now</span></a>
-								
-							</div>
-						</div>
-					</div>
-					
-				</div>
-		</div>
-	</section>
-	<!-- End Pricing Section -->
-
-	<!-- Services Section -->
-	<section class="pricing-section" id="services" style="background:#fff;">
-		<div class="auto-container">
-			<!-- Sec Title -->
-			<div class="sec-title light centered">
-				<h2 style="color:var(--dark-color);">Services</h2>
-			</div>
-			
-			<div class="services-container" style="display: flex;flex-direction: column;">
-				<div>
-					<div style="width: 150px;height: 100px;margin-right: 20px;">
-						<img src="./images/DIA.jpeg" style="object-fit: cover;width: 100%;height: 100%;"/>
-					</div>
-					<div>
-						<p>
-							<span style="font-weight: bold;font-size:15px;">Dedicated Internet Access (DIA)</span>
-						</p>
-						<p>
-							Our DIA services offer reliable, high-speed connectivity customized to your bandwidth <br>requirements. Enhancing your business communication and operational efficiency.
-						</p>
-					</div>
-				</div>
-				<div style="border-top: 1px solid rgba(0,0,0,0.1);">
-					<div style="width: 150px;height: 100px;margin-right: 20px;">
-						<img src="./images/ftth.jpg" style="object-fit: cover;width: 100%;height: 100%;"/>
-					</div>
-					<div>
-						<p>
-							<span style="font-weight: bold;font-size:15px;">Fibre to the Home (FTTH)</span>
-						</p>
-						
-						<p>
-							Experience ultra-fast and reliable internet directly to your home.
-						</p>
-					</div>
-				</div>
-				<div>
-					<div style="width: 150px;height: 100px;margin-right: 20px;">
-						<img src="./images/colocation.webp" style="object-fit: cover;width: 100%;height: 100%;"/>
-					</div>
-					<div>
-						<p>
-							<span style="font-weight: bold;font-size:15px;">Colocation</span>
-						</p>
-						<p>
-							We offer secure and scalable colocation services for your critical IT infrastructure needs.
-						</p>
-					</div>
-				</div>
-				<div>
-					<div style="width: 150px;height: 100px;margin-right: 20px;">
-						<img src="./images/data-center.webp" style="object-fit: cover;width: 100%;height: 100%;"/>
-					</div>
-					<div>
-						<p>
-							<span style="font-weight: bold;font-size:15px;">Data Center</span>
-						</p>
-						<p>
-							Seamless data management and security, ensuring your data remains accessible, protected, <br>and optimized for performance.
-						</p>
-					</div>
-				</div>
-				
-			</div>
-		</div>
-	</section>
-	<!-- End of services section -->
-	
-	<!-- Facility Section -->
-	<section class="facility-section" style="background-image: url(images/background/pattern-6.png)">
-		<div class="auto-container">
-			<!-- Sec Title -->
-			<div class="sec-title">
-				<div class="clearfix">
-					<div class="pull-left">
-						<div class="title">CHARLES CATV SYSTEMS INC</div>
-						<h2>Few great reasons <br>to choose us.</h2>
-					</div>
-					<div class="pull-right">
-						<div class="text" style="display: none;">CCSI is a local ISP that strictly follows laws and respects the customer's<br> data privacy and transparency, and ensures safety from unknown attackers<br> using advanced software.</div>
-					</div>
-				</div>
-			</div>
-			<!-- End Sec Title -->
+                        <div class="" >
+                            <div class="tour-box th-ani gsap-cursor" style="overflow: visible;">
+                                <div class="ribbon" style="position: absolute;top:-20px;right:-20px;z-index:10;font-size:10px;">
+                                    REC
+                                </div>
+                                <div class="tour-box_img global-img" style="background:var(--theme-color);padding-top:20px;padding-bottom:10px;display:grid;place-items:center;">
+                                    <h3 class="box-title text-white"><a href="tour-details.html">Business Plan</a></h3>
+                                </div>
+                                <div class="tour-content">
+                                    <div class="">
+                                        <span style="font-size:13px;">Speed</span> <br> <span style="color:var(--theme-color)">Up to 1GBps</span>
+                                    </div>
+                                    <h4 class="tour-box_price"><span class="currency">₱6600</span>/Monthly</h4>
+                                    <div class="tour-action">
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3">
+                    <div class="title-area text-center">
+                        <br>
+                        <h4 class="sec-title">Internet only</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-area tour-slider">
+                <div class="">
+                    <div class="">
+                        <div id="plan12345"></div>
+                        <div class="">
+                            <div class="tour-box th-ani gsap-cursor">
+                                <div class="tour-box_img global-img" style="background:var(--theme-color);padding-top:20px;padding-bottom:10px;display:grid;place-items:center;">
+                                    <h3 class="box-title text-white"><a href="tour-details.html">Home Plan </a></h3>
+                                </div>
+                                <div class="tour-content">
+                                    <div class="">
+                                        <span style="font-size:13px;">Speed</span> <br> <span style="color:var(--theme-color)">Up to 100MBps</span><br><span style="font-size:14px;color:var(--theme-color)">No time limit</span>
+                                    </div>
+                                    <h4 class="tour-box_price"><span class="currency">₱1000</span>/Monthly</h4>
+                                    <div class="tour-action">
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="">
+                            <div class="tour-box th-ani gsap-cursor">
+                                <div class="tour-box_img global-img" style="background:var(--theme-color);padding-top:20px;padding-bottom:10px;display:grid;place-items:center;">
+                                    <h3 class="box-title text-white"><a href="tour-details.html">Business Plan </a></h3>
+                                </div>
+                                <div class="tour-content">
+                                    <div class="">
+                                        <span style="font-size:13px;">Speed</span> <br> <span style="color:var(--theme-color)">Up to 400MBps</span><br><span style="font-size:14px;color:var(--theme-color)">1AM - 6PM</span>
+                                    </div>
+                                    <h4 class="tour-box_price"><span class="currency">₱1600</span>/Monthly</h4>
+                                    <div class="tour-action">
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <div id="services" class="destination-area position-relative" style="background:#f8f8f8;">
+        <div class="container" style="padding:100px 20px 20px; ">
+            <div class="title-area text-center">
+                <h2 class="sec-title">Services</h2>
+            </div>
+            <div class="content">
+                <div style="position: relative;">
+                    <img src="/assets/img/category/DIA.jpeg" style="object-fit: cover;width: 100%;height: 100%;"/>
+                    <div style="position: absolute;bottom:0;left:0;padding:15px 0;transition: 0.2s;text-align: center;color:#fff;width: 100%;background:rgba(0,0,0,0.7);">Dedicated Internet Access</div>
+                </div>
+                <div style="position: relative;">
+                    <img src="/assets/img/category/ftth.jpg" style="object-fit: cover;width: 100%;height: 100%;"/>
+                    <div style="position: absolute;bottom:0;left:0;padding:15px 0;transition: 0.2s;text-align: center;color:#fff;width: 100%;background:rgba(0,0,0,0.7);">Fiber To The Home (FTTH)</div>
+                </div>
+                <div style="position: relative;">
+                    <img src="/assets/img/category/colocation.webp" style="object-fit: cover;width: 100%;height: 100%;"/>
+                    <div style="position: absolute;bottom:0;left:0;padding:15px 0;transition: 0.2s;text-align: center;color:#fff;width: 100%;background:rgba(0,0,0,0.7);">Colocation</div>
+                </div>
+                <div style="position: relative;">
+                    <img src="/assets/img/category/data-center.webp" style="object-fit: cover;width: 100%;height: 100%;"/>
+                    <div style="position: absolute;bottom:0;left:0;padding:15px 0;transition: 0.2s;text-align: center;color:#fff;width: 100%;background:rgba(0,0,0,0.7);">Data Center</div>
+                </div>
+            </div>
+            
+            <br><br><br><br><br><br>
+            <div class="title-area text-center">
+                <h2 class="sec-title">Why choose us</h2>
+            </div>
+            <div class="wcu" style="display: flex;flex-direction: column;">
+                <div style="display: flex;align-items: center;padding:10px 150px;border-bottom: 1px solid rgba(0,0,0,0.1);">
+                    <div class="img12345" style="min-width: 100px;min-height: 100px;overflow:hidden;margin-right: 20px;border-radius: 10px;">
+                        <img src="/assets/img/category/why4.png"/>
+                    </div>
+                    <div>
+                        <span class="title">Safe and Secure</span>
+                        <p>We strictly follows laws and respects the customer's data privacy and transparency, <br>and ensures safety from unknown attackers using advanced software.</p>
+                    </div>
+                </div>
+                <div style="display: flex;align-items: center;padding:10px 150px;border-bottom: 1px solid rgba(0,0,0,0.1);">
+                    <div class="img12345" style="min-width: 100px;min-height: 100px;overflow:hidden;margin-right: 20px;border-radius: 10px;">
+                        <img src="/assets/img/category/why1.png"/>
+                    </div>
+                    <div>
+                        <span class="title">No Hidden Charges</span>
+                        <p>Pay only what you consume policy.</p>
+                    </div>
+                </div>
+                <div style="display: flex;align-items: center;padding:10px 150px;border-bottom: 1px solid rgba(0,0,0,0.1);">
+                    <div class="img12345" style="min-width: 100px;min-height: 100px;overflow:hidden;margin-right: 20px;border-radius: 10px;">
+                        <img src="/assets/img/category/why3.png"/>
+                    </div>
+                    <div>
+                        <span class="title">Fast Technical Support</span>
+                        <p>We provide swift technical support for our internet subscribers, addressing their <br>needs and concerns to ensure satisfaction.</p>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+            <div class="map" style="display: flex;">
+                <div style="flex:1;margin-right: 50px;">
+                    <img src="/assets/img/masbate.jpg"/>
+                </div>
+                <div style="flex:1;">
+                    <div>
+                        <h4>CCSI provides service in the <br>following areas:</h4>
+                    </div>
+                    <div style="margin-left: 20px;">
+                        <div>1. Masbate City</div>
+                        <div>2. Milagros, Masbate</div>
+                        <div>3. Baleno, Masbate</div>
+                        <div>4. Aroroy, Masbate</div>
+                        <div>5. Mobo, Masbate</div>
+                        <div>6. Uson, Masbate</div>
+                        <div>7. Dimasalang, Masbate</div>
+                        <div>8. Palanas, Masbate</div>
+                        <div>9. Cataingan, Masbate</div>
+                        <div>10. Placer, Masbate</div>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+        </div>
+    </div>
+    <section id="contact" class="contact-page-section" id="contact">
+        <br><br><br>
+		<div class="container">
 			<div class="row clearfix">
-				<!-- Blocks Column -->
-				<div class="blocks-column col-lg-6 col-md-12 col-sm-12">
-					<div class="inner-column">
-						<div class="row clearfix">
-							
-							<!-- Facility Block -->
-							<div class="facility-block col-lg-6 col-md-6 col-sm-6">
-								<div class="inner-box">
-									<div class="pattern-layer" style="background-image: url(images/background/pattern-14.png)"></div>
-									<div class="icon-box flaticon-money"></div>
-									<h5>No Hidden Charges</h5>
-									<div class="text">Pay only what you consume policy.</div>
-								</div>
-							</div>
-							
-							<!-- Facility Block -->
-							<div class="facility-block col-lg-6 col-md-6 col-sm-6">
-								<div class="inner-box">
-									<div class="pattern-layer" style="background-image: url(images/background/pattern-14.png)"></div>
-									<div class="icon-box flaticon-wifi-router"></div>
-									<h5>Ultrafast Internet Connection</h5>
-									<div class="text">Watch your favorite movies and TV shows with no data limit.</div>
-								</div>
-							</div>
-							
-							<!-- Facility Block -->
-							<div class="facility-block col-lg-6 col-md-6 col-sm-6">
-								<div class="inner-box">
-									<div class="pattern-layer" style="background-image: url(images/background/pattern-14.png)"></div>
-									<div class="icon-box flaticon-customer-service"></div>
-									<h5>Fast Technical Support</h5>
-									<div class="text">We provide swift technical support for our internet subscribers, addressing their needs and concerns to ensure satisfaction.</div>
-								</div>
-							</div>
-
-							<!-- Facility Block -->
-							<div class="facility-block col-lg-6 col-md-6 col-sm-6">
-								<div class="inner-box">
-									<div class="pattern-layer" style="background-image: url(images/background/pattern-14.png)"></div>
-									<div class="icon-box flaticon-secure-shield"></div>
-									<h5>Safe and Secure</h5>
-									<div class="text">We strictly follows laws and respects the customer's data privacy and transparency, and ensures safety from unknown attackers using advanced software.</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				<!-- Image Column -->
-				<div class="image-column col-lg-6 col-md-12 col-sm-12">
-					<div class="inner-column">
-						<div class="pattern-layer"></div>
-						<div class="image wow slideInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
-							<img src="images/resource/facility.jpg" alt="" />
-						</div>
-					</div>
-				</div>
-				
-			</div>
-		</div>
-	</section>
-	<!-- End Facility Section -->
-	
-	<!-- Internet Section -->
-	<section class="internet-section" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(images/main-slider/slider_1.png) ">
-		<div class="auto-container">
-			<div style="display: flex;">
-				<div class="masbate-map col-md-6">
-					<img src="images/masbate.jpg"  style="opacity: 0.7;box-shadow: 0 0 3px rgba(255,255,255,0.5);border-radius:0px;height: 100%;object-fit: fill;"/>
-				</div>
-				<div class="content-column ml-5 col-md-6">
-					<h2 style="color:rgba(255,255,255,0.7);">CCSI provides service in the following areas:</h2>
-					<div class="text" style="color:rgba(255,255,255,0.7);">
-						<ol class="ml-5">
-							<li>1. Masbate City</li>
-							<li>2. Milagros, Masbate</li>
-							<li>3. Baleno, Masbate</li>
-							<li>4. Aroroy, Masbate</li>
-							<li>5. Mobo, Masbate</li>
-							<li>6. Uson, Masbate</li>
-							<li>7. Dimasalang, Masbate</li>
-							<li>8. Palanas, Masbate</li>
-							<li>9. Cataingan, Masbate</li>
-							<li>10. Placer, Masbate</li>
-						</ol>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- End Internet Section -->
-	
-<!-- Featured Section -->
-	<section class="featured-section" id="payment-mode">
-		<div class="pattern-layer-one" ></div>
-		<div class="pattern-layer-two" ></div>
-		<div class="auto-container">
-			<div class="sec-title light centered">
-				<h2>Payment Mode</h2>
-			</div>
-			<div style="display: grid;grid-template-columns: auto auto;">
-				<div class="bg-white text-center">
-					<img  src="images/pm/pm1p1.webp"/>
-					<img  src="images/pm/pm2p2.webp"/>
-				</div>
-				<div class="bg-white">
-					<img  src="images/pm/pm1p2.webp"/>
-					<img src="images/pm/pm2p1.webp"/>
-					
-				</div>
-				<div class="bg-white">
-					<img src="images/pm/pm3.webp"/>
-				</div>
-				<div class="bg-white">
-					<img src="images/pm/pm4.webp"/>
-				</div>
-				
-			</div>
-			
-		</div>
-	</section>
-	<!-- End Featured Section -->
-
-	<!-- Featured Section -->
-	<section class="contact-page-section" id="contact">
-		<div class="pattern-layer-one" style="background-image: url(images/background/pattern-9.png)"></div>
-		<div class="pattern-layer-two" style="background-image: url(images/background/pattern-10.png)"></div>
-		<div class="auto-container">
-			
-			<div class="row clearfix">
-            	
 				<!-- Info Column -->
 				<div class="info-column col-lg-4 col-md-12 col-sm-12">
 					<div class="inner-column">
-						<div class="title-box">
+						<div style="text-align: center;">
 							<h4>Contact Details</h4>
 						</div>
 						<div class="lower-box">
-							<ul class="info-list">
+							<ul class="info-list" style="margin: 0;padding: 0;list-style: none;">
 								<li>
-									<span class="icon flaticon-map"></span>
-									SDB Bldg, Quezon St. 5400  <br> Masbate, Philippines
-								</li>
-								<li>
-									<span class="icon flaticon-call"></span>
-									<a>M: 0917-8004889</a>
-									<a>M: 0919-0671007</a>
-								</li>
-								<li style="display: flex;align-items: center;">
-									<span class="icon flaticon-email-1"></span>
-									<a>info@charlescatv.com</a><br>
+                                    <a style="text-align: center;">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="var(--theme-color)" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                            <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+                                        </svg>
+                                        SDB Bldg, Quezon St. 5400 Masbate, Philippines
+                                    </a>
+									<br>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="var(--theme-color)" class="bi bi-telephone-plus-fill" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877zM12.5 1a.5.5 0 0 1 .5.5V3h1.5a.5.5 0 0 1 0 1H13v1.5a.5.5 0 0 1-1 0V4h-1.5a.5.5 0 0 1 0-1H12V1.5a.5.5 0 0 1 .5-.5"/>
+                                      </svg>
+									<a>M: 0917-8004889</a> | 
+                                  
+									<a>M: 0919-0671007</a><br>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="var(--theme-color)" class="bi bi-envelope-at-fill" viewBox="0 0 16 16">
+                                        <path d="M2 2A2 2 0 0 0 .05 3.555L8 8.414l7.95-4.859A2 2 0 0 0 14 2zm-2 9.8V4.698l5.803 3.546zm6.761-2.97-6.57 4.026A2 2 0 0 0 2 14h6.256A4.5 4.5 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586zM16 9.671V4.697l-5.803 3.546.338.208A4.5 4.5 0 0 1 12.5 8c1.414 0 2.675.652 3.5 1.671"/>
+                                        <path d="M15.834 12.244c0 1.168-.577 2.025-1.587 2.025-.503 0-1.002-.228-1.12-.648h-.043c-.118.416-.543.643-1.015.643-.77 0-1.259-.542-1.259-1.434v-.529c0-.844.481-1.4 1.26-1.4.585 0 .87.333.953.63h.03v-.568h.905v2.19c0 .272.18.42.411.42.315 0 .639-.415.639-1.39v-.118c0-1.277-.95-2.326-2.484-2.326h-.04c-1.582 0-2.64 1.067-2.64 2.724v.157c0 1.867 1.237 2.654 2.57 2.654h.045c.507 0 .935-.07 1.18-.18v.731c-.219.1-.643.175-1.237.175h-.044C10.438 16 9 14.82 9 12.646v-.214C9 10.36 10.421 9 12.485 9h.035c2.12 0 3.314 1.43 3.314 3.034zm-4.04.21v.227c0 .586.227.8.581.8.31 0 .564-.17.564-.743v-.367c0-.516-.275-.708-.572-.708-.346 0-.573.245-.573.791"/>
+                                      </svg>
+                                    <a>info@charlescatv.com</a><br>
 								</li>
 							</ul>
 							
@@ -730,61 +580,165 @@
 						</div>
 					</div>
 				</div>
-				
             </div>
-			
 		</div>
 	</section>
-	<!-- End Featured Section -->
-	
-	<!-- Main Footer -->
-    <footer class="main-footer">
-		<div class="pattern-layer-one" style="background-image: url(images/background/pattern-12.png)"></div>
-		<div class="pattern-layer-two" style="background-image: url(images/background/pattern-13.png)"></div>
-    	<div class="auto-container">
-            <div class="widgets-section">
-				<ul class="contact-info-list">
-					<li>
-						<span class="icon"><img src="images/icons/icon-3.png" alt="" /></span>
-						SDB Bldg, Quezon St. 5400  <br> Masbate, Philippines
-					</li>
-				</ul>
-			</div>
-		</div>
-		<!-- Footer Bottom -->
-		<div class="footer-bottom">
-			<div class="auto-container">
-				<div class="copyright"></div>
-			</div>
-		</div>
-	</footer>
-	<!-- End Main Footer -->
-	
-</div>
-<!--End pagewrapper-->
+    <footer class="footer-wrapper footer-layout1">
+        <div class="widget-area">
+            <div class="container">
+                <div class="newsletter-area">
+                    <div class="newsletter-top">
+                        <div class="row gy-4 align-items-center">
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-between">
+                    <div class="col-md-6 col-xl-3">
+                        <div class="widget footer-widget">
+                            <div class="th-widget-about">
+                                <div class="about-logo">
+                                    <a href="home-travel.html"><img src="assets/img/ccsi-icon.png" alt="Tourm"></a>
+                                </div>
+                                <p class="about-text">CCSI is a leading fiber internet and cable TV provider in Masbate City, Philippines.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-auto">
+                        <div class="widget widget_nav_menu footer-widget">
+                            <h3 class="widget_title">Quick Links</h3>
+                            <div class="menu-all-pages-container">
+                                <ul class="menu">
+                                    <li><a>Home</a></li>
+                                    <li><a>Packages</a></li>
+                                    <li><a>Services</a></li>
+                                    <li><a>Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-auto">
+                        <div class="widget footer-widget">
+                            <h3 class="widget_title">Address</h3>
+                            <div class="th-widget-contact">
+                                <div class="info-box_text">
+                                    <div class="icon">
+                                        <img src="assets/img/icon/envelope.svg" alt="img">
+                                    </div>
+                                    <div class="details">
+                                        <p><a  class="info-box_link">info@charlescatv.com</a></p>
+                                    </div>
+                                </div>
+                                <div class="info-box_text">
+                                    <div class="icon"><img src="assets/img/icon/location-dot.svg" alt="img"></div>
+                                    <div class="details">
+                                        <p>SDB Bldg, Quezon St. 5400 Masbate, Philippines</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-auto">
+                        <div class="widget footer-widget">
+                            <h3 class="widget_title">How to pay?</h3>
+                            <div class="sidebar-gallery">
+                                <div class="gallery-thumb">
+                                    <img src="assets/img/ki/1.webp" alt="Gallery Image">
+                                    <a target="_blank" href="https://www.instagram.com/" class="gallery-btn"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-image" viewBox="0 0 16 16">
+                                        <path d="M6.002 5.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/>
+                                        <path d="M2.002 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm12 1a1 1 0 0 1 1 1v6.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062L1.002 12V3a1 1 0 0 1 1-1z"/>
+                                      </svg></a>
+                                </div>
+                                <div class="gallery-thumb">
+                                    <img src="assets/img/ki/2.webp" alt="Gallery Image">
+                                    <a target="_blank" href="https://www.instagram.com/" class="gallery-btn"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-image" viewBox="0 0 16 16">
+                                        <path d="M6.002 5.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/>
+                                        <path d="M2.002 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm12 1a1 1 0 0 1 1 1v6.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062L1.002 12V3a1 1 0 0 1 1-1z"/>
+                                      </svg></a>
+                                </div>
+                                <div class="gallery-thumb">
+                                    <img src="assets/img/ki/3.webp" alt="Gallery Image">
+                                    <a target="_blank" href="https://www.instagram.com/" class="gallery-btn"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-image" viewBox="0 0 16 16">
+                                        <path d="M6.002 5.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/>
+                                        <path d="M2.002 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm12 1a1 1 0 0 1 1 1v6.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062L1.002 12V3a1 1 0 0 1 1-1z"/>
+                                      </svg></a>
+                                </div>
+                                <div class="gallery-thumb">
+                                    <img src="assets/img/ki/4.webp" alt="Gallery Image">
+                                    <a target="_blank" href="https://www.instagram.com/" class="gallery-btn"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-image" viewBox="0 0 16 16">
+                                        <path d="M6.002 5.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/>
+                                        <path d="M2.002 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm12 1a1 1 0 0 1 1 1v6.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062L1.002 12V3a1 1 0 0 1 1-1z"/>
+                                      </svg></a>
+                                </div>
+                                <div class="gallery-thumb">
+                                    <img src="assets/img/ki/5.webp" alt="Gallery Image">
+                                    <a target="_blank" href="https://www.instagram.com/" class="gallery-btn"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-image" viewBox="0 0 16 16">
+                                        <path d="M6.002 5.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/>
+                                        <path d="M2.002 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm12 1a1 1 0 0 1 1 1v6.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062L1.002 12V3a1 1 0 0 1 1-1z"/>
+                                      </svg></a>
+                                </div>
+                                <div class="gallery-thumb">
+                                    <img src="assets/img/ki/6.webp" alt="Gallery Image">
+                                    <a target="_blank" href="https://www.instagram.com/" class="gallery-btn"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-image" viewBox="0 0 16 16">
+                                        <path d="M6.002 5.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/>
+                                        <path d="M2.002 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm12 1a1 1 0 0 1 1 1v6.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062L1.002 12V3a1 1 0 0 1 1-1z"/>
+                                      </svg></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-wrap" >
+            <div class="container">
+                <div style="text-align: center;">
+                    <div class="col-md-12">
+                        <p class="copyright-text">Copyright 2024 CCSI. All Rights Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--==============================
+    All Js File
+============================== -->
+    <!-- Jquery -->
+    <!-- Jquery -->
+    <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
+    <!-- Swiper Js -->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Magnific Popup -->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <!-- Counter Up -->
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <!-- Range Slider -->
+    <script src="assets/js/jquery-ui.min.js"></script>
+    <!-- imagesloaded -->
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <!-- isotope -->
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <!-- gsap -->
+    <script src="assets/js/gsap.min.js"></script>
+
+    <!-- circle-progress -->
+    <script src="assets/js/circle-progress.js"></script>
+
+    <script src="assets/js/matter.min.js"></script>
+    <script src="assets/js/matterjs-custom.js"></script>
 
 
-<!-- End Header Search -->
+    <!-- nice select -->
+    <script src="assets/js/nice-select.min.js"></script>
 
 
 
-<script src="js/jquery.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-<script src="js/jquery.fancybox.js"></script>
-<script src="js/appear.js"></script>
-<script src="js/parallax.min.js"></script>
-<script src="js/tilt.jquery.min.js"></script>
-<script src="js/jquery.paroller.min.js"></script>
-<script src="js/owl.js"></script>
-<script src="js/wow.js"></script>
-<script src="js/nav-tool.js"></script>
-<script src="js/jquery-ui.js"></script>
-<script src="js/script.js"></script>
 
-<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
-<!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
-
+    <!-- Main Js File -->
+    <script src="assets/js/main.js"></script>
 </body>
+
 </html>
