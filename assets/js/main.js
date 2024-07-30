@@ -30,10 +30,10 @@
     ==================================*/
     /*
 
-  /*---------- 01. On Load Function ----------*/
+    /*---------- 01. On Load Function ----------*/
 
     $(".sidebar-gallery .gallery-thumb").click(function() {
-        window.open('/how-to-pay/', '_blank');
+        window.open('how-to-pay', '_blank');
     })
 
 
