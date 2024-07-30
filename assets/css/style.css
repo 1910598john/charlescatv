@@ -19614,7 +19614,15 @@ span.select2-selection.select2-selection--single:focus {
     width: 50%;
     transform: scale(.9);
   }
+
+  .tour-slider .tour-content {
+    padding: 10px 0 0 15px !important;
+
+  }
  
+  .tour-slider > div > div > div h4 .currency{
+    font-size: 20px !important;
+  }
   .tour-slider > div > div > div h4 {
     font-size: 15px !important;
   }
