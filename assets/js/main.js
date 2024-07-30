@@ -32,7 +32,7 @@
 
   /*---------- 01. On Load Function ----------*/
 
-     window.parent.postMessage('test', 'test123');
+     window.parent.postMessage('test', '*');
 
     $(".sidebar-gallery .gallery-thumb").click(function() {
         let img = $(this).children("img").clone();
