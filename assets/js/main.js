@@ -34,9 +34,6 @@
 
 
 
-
-
-
     $(".sidebar-gallery .gallery-thumb").click(function() {
         let img = $(this).children("img").clone();
         document.body.insertAdjacentHTML("afterbegin", `
