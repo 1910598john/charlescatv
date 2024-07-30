@@ -19599,7 +19599,9 @@ span.select2-selection.select2-selection--single:focus {
     grid-template-columns: repeat(3, 1fr);
   }
 }
-
+::-webkit-scrollbar{
+  display: none;
+}
 @media (max-width: 480px) {
   .tour-slider > div > div {
     display: flex;
