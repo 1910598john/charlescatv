@@ -453,6 +453,7 @@ h6 {
   #services .wcu > div .img12345 {
     margin-bottom: 10px;
     width: 60%;
+    display: none;
   }
 
   #services .map{
@@ -1576,7 +1577,6 @@ textarea.is-invalid {
   width: 100%;
   max-width: 310px;
   background-color: #fff;
-  border-right: 3px solid var(--theme-color);
   height: 100%;
   position: relative;
   left: -110%;
@@ -18683,6 +18683,9 @@ span.select2-selection.select2-selection--single:focus {
   }
   .destination-area .container > div:nth-child(2) > div{
     flex-direction: column;
+  }
+  #ccsip{
+    position: absolute;top: -90px;
   }
   
 }
