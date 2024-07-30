@@ -45,6 +45,8 @@
             $(this).remove();
         })
 
+        $(".preview-image img")[0].scrollIntoView();
+
         $(".preview-image img").click(function(event){
            event.stopImmediatePropagation();
         })
