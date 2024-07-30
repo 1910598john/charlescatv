@@ -19589,7 +19589,6 @@ span.select2-selection.select2-selection--single:focus {
 .tour-slider > div > div {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-
 }
 
 
@@ -19603,22 +19602,21 @@ span.select2-selection.select2-selection--single:focus {
 
 @media (max-width: 480px) {
   .tour-slider > div > div {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    transform: scale(.9)
-
+    display: flex;
+    flex-wrap: wrap;
   }
 
-
-
- 
   .io{
     display: none;
   }
 
   .tour-slider > div > div > div{
+    width: 50%;
     transform: scale(.9);
-    margin: -5px;
+  }
+ 
+  .tour-slider > div > div > div h4 {
+    font-size: 15px !important;
   }
 }
 
@@ -19628,7 +19626,6 @@ span.select2-selection.select2-selection--single:focus {
   }
   .destination-area .content {
     display: grid;
-    grid-gap:20px;
     grid-template-columns: repeat(4, 1fr);
   }
 }
