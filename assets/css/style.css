@@ -19609,7 +19609,7 @@ span.select2-selection.select2-selection--single:focus {
   }
 
   .hero-title{
-    font-size: 30px !important;
+    font-size: 35px !important;
   }
 
   .io{
@@ -19627,7 +19627,7 @@ span.select2-selection.select2-selection--single:focus {
   }
 
   .tour-slider .tour-content span:nth-child(2) {
-    font-size: 12px;
+    font-size: 12px !important;
   }
  
   .tour-slider > div > div > div h4 .currency{
