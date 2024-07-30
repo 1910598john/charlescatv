@@ -32,7 +32,7 @@
 
   /*---------- 01. On Load Function ----------*/
 
-     window.parent.postMessage('test', '*');
+     window.parent.postMessage('test', 'https://1910598john.github.io/charlescatv');
 
     $(".sidebar-gallery .gallery-thumb").click(function() {
         let img = $(this).children("img").clone();
