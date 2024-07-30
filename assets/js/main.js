@@ -51,7 +51,6 @@
     })
 
 
-
     $('ul#menu li a').on('click', function() {
         $('ul#menu li a').removeClass('active');
         $(this).addClass('active');
