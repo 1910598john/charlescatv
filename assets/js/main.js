@@ -32,24 +32,8 @@
 
   /*---------- 01. On Load Function ----------*/
 
-     window.parent.postMessage('test', 'https://1910598john.github.io/charlescatv');
-
     $(".sidebar-gallery .gallery-thumb").click(function() {
-        let img = $(this).children("img").clone();
-        document.body.insertAdjacentHTML("afterbegin", `
-        <div class="preview-image" style="display:grid;place-items:center;">
-        </div>`);
-        $(img).appendTo(".preview-image");
-
-        $(".preview-image").click(function(){
-            $(this).remove();
-        })
-
-        $(".preview-image img")[0].scrollIntoView();
-
-        $(".preview-image img").click(function(event){
-           event.stopImmediatePropagation();
-        })
+        window.open('/how-to-pay/', '_blank');
     })
 
 
