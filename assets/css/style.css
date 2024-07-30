@@ -18695,6 +18695,9 @@ span.select2-selection.select2-selection--single:focus {
     max-width: 100px;
     max-height: 100px;
   }
+  #ccsip{
+    padding-right: 100px;
+  }
 }
 
 
@@ -19627,7 +19630,7 @@ span.select2-selection.select2-selection--single:focus {
   }
 
   .tour-slider .tour-content span:nth-child(2) {
-    font-size: 5px !important;
+    font-size: 10px !important;
   }
  
   .tour-slider > div > div > div h4 .currency{
