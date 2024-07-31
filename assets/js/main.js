@@ -36,7 +36,6 @@
         window.open('how-to-pay', '_self');
     })
 
-
     $('ul#menu li a').on('click', function() {
         $('ul#menu li a').removeClass('active');
         $(this).addClass('active');
