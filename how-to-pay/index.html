@@ -46,7 +46,13 @@
     <link rel="stylesheet" href="../assets/css/swiper-bundle.min.css">
     <!-- Theme Custom CSS -->
     <link rel="stylesheet" href="../assets/css/style.css">
-    
+    <style>
+    @media (max-width: 575px) {
+        .header-container-paymode img{
+            visibility: hidden;
+        }
+    }
+    </style>
 </head>
 
 <body>
@@ -72,7 +78,7 @@
     <div class="preload-logo" style="position: fixed;top:50%;left:50%;transform: translate(-50%, -50%);z-index:2313213132131313123123123213213123123213123123213;">
         <img src="../assets/img/ccsi-icon.png"/>
     </div>
-    <div class="container" style="display:flex;padding: 50px 0 20px 0;border-bottom: 1px solid rgba(0,0,0,0.1);">
+    <div class="container header-container-paymode" style="display:flex;padding: 50px 0 20px 0;border-bottom: 1px solid rgba(0,0,0,0.1);">
         <a href="../index.html" style="margin-right: 50px;"><img src="../assets/img/ccsi-icon.png" alt="Tourm"></a>
         <h4 style="position: absolute;left:50%;transform:translateX(-50%)">Payment mode</h1>
     </div>
